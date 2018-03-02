@@ -119,6 +119,6 @@ app.delete('/products/:id', (req, res) => {
       })
     })
 })
-app.listen(port,4001, () => {
+app.listen(port, () => {
   console.log('Express API listening on port 4001')
 })
