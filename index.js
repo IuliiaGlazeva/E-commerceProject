@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 
 const app = express()
 
-var sequelize = new Sequelize('postgres://postgres:secret@localhost:5432/postgres')
+var sequelize = new Sequelize('postgres://postgres:iuliia@localhost:5432/postgres')
 const port = process.env.PORT || 4001
 
 const Product = sequelize.define('product', {
